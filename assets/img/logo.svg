@@ -1,0 +1,38 @@
+<svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1912 1024" width="1912" height="1024">
+	<title>Novo Projeto</title>
+	<defs>
+		<image  width="2480" height="1748" id="img1" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAACbAAAAbUAQMAAAAegTDuAAAAAXNSR0IB2cksfwAAAANQTFRF////p8QbyAAAAiZJREFUeJztwYEAAAAAw6D5U1/gCFUBAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAM8ATAQAAc649tQAAAAASUVORK5CYII="/>
+	</defs>
+	<style>
+		tspan { white-space:pre } 
+		.s0 { fill: #78bfa5 } 
+		.t1 { font-size: 100px;line-height: 100px;fill: #242973;font-weight: 400;font-family: "CoolveticaRg-Regular", "Coolvetica Rg" } 
+		.t2 { font-size: 100px;fill: #f2dfbb;font-weight: 400;font-family: "CoolveticaRg-Regular", "Coolvetica Rg" } 
+		.t3 { font-size: 100px;fill: #242973;font-weight: 400;font-family: "CoolveticaRg-Regular", "Coolvetica Rg" } 
+		.t4 { font-size: 100px;fill: #242973;font-weight: 400;font-family: "DejaVuSans", "DejaVu Sans" } 
+	</style>
+	<use id="Background" href="#img1" x="-324" y="-558"/>
+	<rect id="Forma 1" class="s0" x="444" y="625.1" width="1380" height="224.8" rx="10"></rect>
+	<rect id="Forma 1 copy" class="s0" x="112" y="320.8" width="383.9" height="285.2" rx="10"></rect>
+	<rect id="Forma 1 copy 3" class="s0" x="1260.3" y="134" width="138.3" height="102.8" rx="10"></rect>
+	<rect id="Forma 1 copy 4" class="s0" x="1277.5" y="275.8" width="138.3" height="102.8" rx="10"></rect>
+	<rect id="Forma 1 copy 5" class="s0" x="1426.3" y="175.5" width="138.3" height="102.8" rx="10"></rect>
+	<rect id="Forma 1 copy 6" class="s0" x="1471.2" y="296.6" width="138.3" height="102.8" rx="10"></rect>
+	<rect id="Forma 1 copy 7" class="s0" x="1367.5" y="403.8" width="138.3" height="102.8" rx="10"></rect>
+	<rect id="Forma 1 copy 8" class="s0" x="1564.6" y="438.4" width="138.3" height="102.8" rx="10"></rect>
+	<rect id="Forma 1 copy 2" class="s0" x="506.3" y="137.5" width="688.3" height="352.8" rx="10"></rect>
+	<text id="Sala" style="transform: matrix(3.459,0,0,3.459,502.82,421.063)" >
+		<tspan x="0" y="0" class="t1" dx="0" >S</tspan><tspan  y="0" class="t1" dx="0" >a</tspan><tspan  y="0" class="t1" dx="0" >l</tspan><tspan  y="0" class="t1" dx="0 5" >a
+</tspan>
+	</text>
+	<text id="de" style="transform: matrix(3.459,0,0,3.459,129.293,576.699)" >
+		<tspan x="0" y="0" class="t2">d</tspan><tspan  y="0" class="t2">e</tspan><tspan  y="0" class="t2">
+</tspan>
+	</text>
+	<text id="Estudos    " style="transform: matrix(3.459,0,0,3.459,497.632,760.004)" >
+		<tspan x="0" y="0" class="t3" dx="0" >E</tspan><tspan  y="0" class="t3" dx="0" >s</tspan><tspan  y="0" class="t3" dx="0" >t</tspan><tspan  y="0" class="t3" dx="0" >u</tspan><tspan  y="0" class="t3" dx="0" >d</tspan><tspan  y="0" class="t3" dx="0" >o</tspan><tspan  y="0" class="t3" dx="0" >s</tspan><tspan  y="0" class="t4" dx="0" >
+</tspan>
+		<tspan x="0" y="120" class="t4" dx="0" > </tspan><tspan  y="120" class="t4" dx="0" > </tspan><tspan  y="120" class="t4" dx="0 5" > 
+</tspan>
+	</text>
+</svg>
