@@ -6,17 +6,7 @@
 @import url(./custom.css);
 @import url(./responsive.css);
 
-* {
-  font-family: "Lexend", "Montserrat", sans-serif;
-}
 
-.nav-link {
-  font-weight: 500;
-  letter-spacing: 0.02em;
-  line-height: 24px;
-  font-family: "Montserrat";
-  
-}
 
 /*
 
