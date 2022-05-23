@@ -10,15 +10,17 @@
   font-family: "Lexend", "Montserrat", sans-serif;
 }
 
-/*
-
 .nav-link {
-  font-size: 16px;
   font-weight: 500;
   letter-spacing: 0.02em;
   line-height: 24px;
-  margin-right: 15px;
+  font-family: "Montserrat";
+  
 }
+
+/*
+
+
 
 .btn1 {
   border-radius: 22px;
