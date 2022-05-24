@@ -1,15 +1,20 @@
-h1,h2,h3,h4,h5,h6{
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   font-weight: 700;
 }
 
-.title{
+.title {
   text-transform: uppercase;
+  border-bottom: solid 5px #f4cb60;
 }
 
-.subtitle{
+.subtitle {
   font-weight: 400;
 }
-
 
 .button {
   font-weight: 500;
@@ -25,3 +30,20 @@ h1,h2,h3,h4,h5,h6{
 .button:hover {
   background-color: #28527a;
 }
+
+.block {
+  margin-bottom: 80px;
+}
+
+a {
+  color: var(--primary);
+}
+
+a:hover {
+  color: var(--primarysecondary);
+}
+
+.fa-solid{
+  color: #f4cb60;
+} 
+
