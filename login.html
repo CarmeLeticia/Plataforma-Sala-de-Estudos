@@ -4,7 +4,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="./js/emailcheck.js"></script>
+    <script src="./Controller/emailcheck.js"></script>
+    <script src="./Controller/logindefault.js"></script>
     <title>Login</title>
 </head>
 <body>
@@ -19,14 +20,14 @@
 
             <div class="inputbox">
                 <label for="senha">Senha</label>
-                <input type="password" name="senha"/>
+                <input id="senha" type="password" name="senha"/>
             </div>
-
-            <input type="submit" name="acao" value="Login"/>
-
+            
+            <a href="index.html" class="login" id="login">Login</a>
+            
             <br>
 
-            <a href="esquecisenha.html">Esqueci minha senha</a>
+            <a href="esquecisenha.html" class="esqueci">Esqueci minha senha</a>
         </div>
     </form>
 </body>
