@@ -1,3 +1,16 @@
+h1,h2,h3,h4,h5,h6{
+  font-weight: 700;
+}
+
+.title{
+  text-transform: uppercase;
+}
+
+.subtitle{
+  font-weight: 400;
+}
+
+
 .button {
   font-weight: 500;
   padding-left: 1.4rem;
