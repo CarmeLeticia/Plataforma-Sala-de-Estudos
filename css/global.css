@@ -32,18 +32,15 @@ h6 {
 }
 
 .block {
-  margin-bottom: 80px;
+  margin-bottom: 150px;
 }
 
-a {
-  color: var(--primary);
-}
-
-a:hover {
-  color: var(--primarysecondary);
+a{
+  color: #363636;
 }
 
 .fa-solid{
   color: #f4cb60;
 } 
+
 

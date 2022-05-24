@@ -4,10 +4,11 @@
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <title>Sala de Estudos</title>
   <script src="https://kit.fontawesome.com/593e97b0f2.js" crossorigin="anonymous"></script>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
   <link rel="stylesheet" href="./css/bootstrap.min.css">
   <link rel="stylesheet" href="./css/style.css">
   <!--<link rel="stylesheet" href="./assets/css/css_reset.css"> -->
@@ -21,7 +22,7 @@
 
     <header class="header">
       <div class="container  container-header">
-        <nav class="navbar navbar-expand-lg navbar-light  ">
+        <nav class="navbar navbar-expand-lg navbar-light ">
           <a class="navbar-brand" href="#">
             <img src="./assets/img/logo.svg" alt="logo" width="150" height="auto" id="logo" class="img-fluid">
           </a>
@@ -57,7 +58,6 @@
     <!--slider inicio-->
 
     <main id="slider">
-
       <div class="container slider-container ">
         <div class="row ">
           <div class="col-md-5 align-self-center colum1  ">
@@ -96,7 +96,7 @@
           <img src="/assets/img/casual-life-3d-young-woman-imagining-things-while-reading-e-book.png" alt="menina" class="img-fluid  menina">
         </div>
         <div class="col-md-6 text-center align-self-center col2 ">
-          <h2 class="span title">Sobre nós</h2>
+          <h2 class="title">Sobre nós</h2>
           <br>
           <h4 class="subtitle">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam, autem eius </h4>
           <br>
@@ -113,16 +113,16 @@
 
   <section id="servicos_1" class="block ">
     <div class="container">
-      <h2 class="span title text-center">Tudo em um só lugar</h2>
+      <h2 class=" title text-center">Tudo em um só lugar</h2>
       <h4 class="subtitle text-center mb-4 mt-4">Tenha acesso as melhores ferramentas de estudo disponíveis em uma única plataforma</h4>
 
       <div class="row  container-row">
-        <div class="col-lg-4 col-md-5 mb-4 mb-lg-0 align-self-center">
+        <div class="col-lg-4 col-md-5 mb-4 mb-lg-0 align-self-center ">
           <a href="#" class="destaque text-center ">
             <div class="img-container mb-3">
               <i class="fa-solid fa-thumbs-up fa-4x"></i>
             </div>
-            <h5 class="text-uppercase" >Fácil de usar</h5>
+            <h5 class="text-uppercase">Fácil de usar</h5>
             <p class="mb-0">Qualquer pessoa da comunidade escolar aprende a usar a Sala de Estudos em minutos.</p>
           </a>
         </div>
@@ -135,9 +135,9 @@
             <p class="mb-0">Trabalhe em um documento com todo o seu ao mesmo tempo ou fale frente a frente em chamada de video.</p>
           </a>
         </div>
-        <div class="col-lg-4 col-md-5 mb-4 mb-lg-0 align-self-center">
+        <div class="col-lg-4 col-md-5 mb-4 mb-lg-0 align-self-center ">
           <a href="#" class="destaque text-center">
-            <div class="img-container mb-3 circle">
+            <div class="img-container mb-3">
               <i class=" fa-solid fa-earth-americas fa-4x "></i>
             </div>
             <h5 class="text-uppercase">Acesso a partir de
@@ -145,11 +145,95 @@
             <p class="mb-0">Tenha acesso a sua Sala de Estudos em qualquer lugar e dispositivo, desfrute de mais flexibilidade e mobilidade.</p>
           </a>
         </div>
-
-
       </div>
     </div>
+  </section>
 
+  <!--Serviços parte I fim-->
+
+  <!--Serviços parte II-->
+
+  <section id="servicos_2" class="block">
+    <div class="container">
+      <h2 class="title text-center">
+        Ferramentas para construir conhecimento
+      </h2>
+
+      <div class="row mt-5 justify-content-center ">
+        <div class="col-3  mr-5 " class="ferramentas">
+          <div class="img-container mb-4 ">
+            <i class="fa-solid fa-cards-blank fa-4x "></i>
+          </div>
+          <h5>Flashcards</h5>
+          <h5>Estude e memorize</h5>
+          <br><br>
+          <p>
+            Melhore o seu estudo com flashcards, crie cartões com facilidade e use diferentes para memorizá-los.
+          </p>
+        </div>
+        <div class="col-3 mr-5 ">
+          <div class="img-container mb-3">
+            <i class="fa-solid fa-cards-blank fa-4x"></i>
+          </div>
+          <h5>Slides</h5>
+          <h5>Apresentações fáceis de criar</h5>
+          <br>
+          <p>
+            Crie, apresente, colabore em apresentações e atribua ações necessárias para desenvolver ideias em equipe.
+            Em tempo real e de qualquer dispositivo.
+          </p>
+        </div>
+        <div class="col-3">
+          <div class="img-container mb-3">
+            <i class="fa-solid fa-cards-blank fa-4x "></i>
+          </div>
+          <h5>Fluxograma </h5>
+          <h5>Apresentações fáceis de criar</h5>
+          <br>
+          <p>
+            Verifique todos os passos essenciais de seu processo: do alinhamento a transformação das informações em ações e reúna o time para planejar o projeto, tudo em um mesmo local.
+          </p>
+        </div>
+      </div>
+
+
+      <div class="row mt-5 justify-content-center ">
+        <div class="col-3  mr-5 " class="ferramentas">
+          <div class="img-container mb-4 ">
+            <i class="fa-solid fa-cards-blank fa-4x "></i>
+          </div>
+          <h5>Mapa mental</h5>
+          <h5>Estude e memorize</h5>
+          <br><br>
+          <p>
+            Uma maneira rápida e fácil para as equipes reunirem, organizarem e estruturarem suas ideias. Comece com um de nossos modelos de mapas mentais criativos
+          </p>
+        </div>
+        <div class="col-3 mr-5 ">
+          <div class="img-container mb-3">
+            <i class="fa-solid fa-cards-blank fa-4x"></i>
+          </div>
+          <h5>Notas</h5>
+          <h5>Ideias organizadas por cor</h5>
+          <br>
+          <p>
+            Nossos recursos de colaboração em tempo real permitem à sua equipe ver cada comentário, mensagem, marcação e reação com emojis assim que aparecerem na tela de desenho.
+          </p>
+        </div>
+        <div class="col-3">
+          <div class="img-container mb-3">
+            <i class="fa-solid fa-cards-blank fa-4x "></i>
+          </div>
+          <h5>Chamadas de video</h5>
+          <h5>Apresentações fáceis de criar</h5>
+          <br>
+          <p>
+            Nossos recursos de colaboração em tempo real permitem à sua equipe ver cada comentário, mensagem, marcação e reação com emojis assim que aparecerem na tela de desenho.
+          </p>
+        </div>
+      </div>
+
+    </div>
   </section>
 
 
@@ -171,10 +255,46 @@
 
 
   <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
-  <script src="./js/bootstrap.min.js"></script>
+
 
 
 
 </body>
 
 </html>
+
+
+<!--
+  <div class="row mt-5">
+        <div class="col-4">
+          <div class="img-container mb-3">
+            <i class="fa-solid fa-cards-blank fa-4x "></i>
+          </div>
+          <h5>Flashcards</h5>
+          <h5>Estude e memorize</h5>
+          <p>
+            Melhore o seu estudo com flashcards, crie cartões com facilidade e use diferentes para memorizá-los.
+          </p>
+        </div>
+        <div class="col-4">
+          <div class="img-container mb-3">
+            <i class="fa-solid fa-cards-blank fa-4x "></i>
+          </div>
+          <h5>Flashcards</h5>
+          <h5>Estude e memorize</h5>
+          <p>
+            Melhore o seu estudo com flashcards, crie cartões com facilidade e use diferentes para memorizá-los.
+          </p>
+        </div>
+        <div class="col-4">
+          <div class="img-container mb-3">
+            <i class="fa-solid fa-cards-blank fa-4x "></i>
+          </div>
+          <h5>Flashcards</h5>
+          <h5>Estude e memorize</h5>
+          <p>
+            Melhore o seu estudo com flashcards, crie cartões com facilidade e use diferentes para memorizá-los.
+          </p>
+        </div>
+      </div>
+-->
