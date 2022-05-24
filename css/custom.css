@@ -2,10 +2,36 @@
   font-family: "Lexend", "Montserrat", sans-serif;
 }
 
+.slider-container {
+  
+}
+
 .header {
   width: 100%;
   background-color: transparent;
   transition: background ease-out 0.2s;
+}
+
+.container-background{
+  background: rgb(120, 191, 165);
+  background: linear-gradient(
+    121deg,
+    rgba(120, 191, 165, 1) 0%,
+    rgba(30, 179, 183, 1) 25%,
+    rgba(0, 163, 208, 1) 47%,
+    rgba(0, 140, 222, 1) 77%,
+    rgba(67, 67, 201, 1) 100%
+  );
+}
+
+
+
+#wave {
+  position: absolute;
+  display: block;
+  bottom: 0;
+  
+  height: auto;
 }
 
 .header,
@@ -40,8 +66,27 @@ ul {
   color: #000000;
   font-weight: 500;
   padding: 5px 25px;
+  font-family: "Montserrat";
 }
 
 .btn1:hover {
   background-color: #28527a;
+}
+
+.h1 {
+  font-size: 50px;
+  font-weight: 900;
+  line-height: 55px;
+  font-family: "Lexend";
+  letter-spacing: -0.04em;
+ text-transform: uppercase;
+}
+
+.span {
+  color: #f4cb60;
+}
+
+.h4 {
+  font-size: 18px;
+  
 }
