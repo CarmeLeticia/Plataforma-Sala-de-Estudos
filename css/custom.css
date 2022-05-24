@@ -3,7 +3,6 @@
 }
 
 .slider-container {
-  
 }
 
 .header {
@@ -12,7 +11,7 @@
   transition: background ease-out 0.2s;
 }
 
-.container-background{
+.container-background {
   background: rgb(120, 191, 165);
   background: linear-gradient(
     121deg,
@@ -24,13 +23,11 @@
   );
 }
 
-
-
 #wave {
   position: absolute;
   display: block;
   bottom: 0;
-  
+
   height: auto;
 }
 
@@ -79,14 +76,24 @@ ul {
   line-height: 55px;
   font-family: "Lexend";
   letter-spacing: -0.04em;
- text-transform: uppercase;
+  text-transform: uppercase;
 }
 
 .span {
   color: #f4cb60;
 }
 
-.h4 {
-  font-size: 18px;
-  
+
+
+
+/*slider parceiros*/
+
+#slider-parceiros{
+  margin-top: 30px;
+ 
+}
+
+#slider-parceiros .h4{
+  font-weight: 700;
+  font-family: "Lexend";
 }
