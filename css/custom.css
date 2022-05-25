@@ -161,7 +161,39 @@ ul {
   font-weight: 700;
 }
 
-.col2{
+.col2 {
   background-color: #eee;
   padding: 50px;
 }
+
+#convite{
+  
+  background: rgb(120, 191, 165);
+  background: linear-gradient(
+    121deg,
+    rgba(120, 191, 165, 1) 0%,
+    rgba(30, 179, 183, 1) 25%,
+    rgba(0, 163, 208, 1) 47%,
+    rgba(0, 140, 222, 1) 77%,
+    rgba(67, 67, 201, 1) 100%
+  );
+}
+
+
+.container-convite {
+  padding: 50px;
+  border-radius: 16px;
+  color: var(--quaternary);
+  background: linear-gradient(
+    121deg,
+    rgba(0, 163, 208, 1) 11%,
+    rgba(0, 140, 222, 1) 63%,
+    rgba(67, 67, 201, 1) 100%
+  );
+}
+
+
+.h2-convite{
+  font-size: 50px;
+
+}  
