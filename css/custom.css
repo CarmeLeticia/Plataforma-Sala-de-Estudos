@@ -166,8 +166,6 @@ ul {
   padding: 50px;
 }
 
-
-
 /*footer*/
 
 a {
@@ -196,7 +194,6 @@ a:hover {
     rgba(0, 140, 222, 1) 77%,
     rgba(67, 67, 201, 1) 100%
   );
-  
 }
 .footer-20192 .container {
   position: relative;
@@ -271,4 +268,35 @@ a:hover {
 }
 .footer-20192 .cta h3 {
   font-size: 20px;
+}
+
+/* login*/
+
+.login-body {
+  overflow: hidden;
+}
+
+.main-container {
+  padding: 4rem;
+  border-radius: 16px;
+  background: rgba(158, 72, 202, 1);
+  background: -webkit-linear-gradient(
+    top left,
+    rgba(158, 72, 202, 1),
+    rgba(104, 148, 207, 1)
+  );
+  background: -moz-linear-gradient(
+    top left,
+    rgba(158, 72, 202, 1),
+    rgba(104, 148, 207, 1)
+  );
+  background: linear-gradient(
+    to bottom right,
+    rgba(158, 72, 202, 1),
+    rgba(104, 148, 207, 1)
+  );
+}
+
+.section-margin{
+  margin-top: 10%;
 }
