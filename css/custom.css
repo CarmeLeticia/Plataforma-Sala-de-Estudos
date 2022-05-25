@@ -2,7 +2,6 @@
   font-family: "Lexend", "Montserrat", sans-serif;
 }
 
-
 .header {
   width: 100%;
   background-color: transparent;
@@ -81,21 +80,18 @@ ul {
   color: #f4cb60;
 }
 
-
 /*slider parceiros*/
 
-#slider-parceiros{
+#slider-parceiros {
   margin-top: 30px;
- 
 }
 
-#slider-parceiros .h4{
+#slider-parceiros .h4 {
   font-weight: 700;
   font-family: "Lexend";
 }
 
-
-#sobre{
+#sobre {
   margin-top: 30px;
   background: rgb(120, 191, 165);
   background: linear-gradient(
@@ -108,36 +104,32 @@ ul {
   );
 }
 
-
-
-#servicos_1 a.destaque{
+#servicos_1 a.destaque {
   display: block;
   background: #eee;
   border-radius: 16px;
   text-align: center;
   padding: 25px;
   text-decoration: none;
-  box-shadow: 10px 9px 15px -1px rgba(0,0,0,0.34);
+  box-shadow: 10px 9px 15px -1px rgba(0, 0, 0, 0.34);
 }
 
-
-#servicos_1 a.destaque .img-container{
+#servicos_1 a.destaque .img-container {
   display: flex;
   align-items: center;
   justify-content: center;
   height: 150px;
 }
 
-#servicos_1 a.destaque .img-container img{
+#servicos_1 a.destaque .img-container img {
   max-height: 160px;
 }
 
-.container-row{
+.container-row {
   margin-top: 5%;
 }
 
-
-#servicos_2{
+#servicos_2 {
   background: rgb(120, 191, 165);
   background: linear-gradient(
     121deg,
@@ -147,4 +139,29 @@ ul {
     rgba(0, 140, 222, 1) 77%,
     rgba(67, 67, 201, 1) 100%
   );
+}
+
+#depoimentos .depoimento {
+  background-color: #eee;
+  border-radius: 16px;
+  display: flex;
+  padding: 30px;
+}
+
+#depoimentos .depoimento .quote {
+  max-width: 35px;
+}
+
+#depoimentos .depoimento .name {
+  color: var(--primary);
+}
+
+#depoimentos .depoimento .name span {
+  color: 000;
+  font-weight: 700;
+}
+
+.col2{
+  background-color: #eee;
+  padding: 50px;
 }
