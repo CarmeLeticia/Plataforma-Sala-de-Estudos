@@ -1,73 +1,300 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="./js/main.js" type='module' defer></script>
-    <script src="./js/emailcheck.js"></script> 
-    <script src="./js/passwordcheck.js"></script> 
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <title>Cadastro</title>
+    <script src="https://kit.fontawesome.com/593e97b0f2.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <script src="./js/main.js" type='module' defer></script>
+    <script src="./js/emailcheck.js"></script>
+    <script src="./js/passwordcheck.js"></script>
+
 </head>
+
 <body>
-    <form class="container" onsubmit="senhaOK()">
-        <h1 class="title">Cadastro</h1>
-        <div class="row">
-            <div class="inputbox">
-                <label for="nome">Nome</label>
-                <input type="text" id="nome" required>
+    <!--Header inicio-->
+    <div class="container-background">
+        <header class="header">
+            <div class="container  container-header">
+                <nav class="navbar navbar-expand-lg navbar-light ">
+                    <a class="navbar-brand" href="#">
+                        <img src="./assets/img/Group 10138.svg" alt="logo" width="150" height="auto" id="logo" class="img-fluid">
+                    </a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse  " id="navbarNav">
+                        <ul class="navbar-nav ms-md-auto ">
+                            <li class="nav-item">
+                                <a class="nav-link text-dark" aria-current="page" href="#">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-dark" href="#">Serviços</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-dark" href="#">Sobre nós</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-dark" href="#">Entre em contato</a>
+                            </li>
+                        </ul>
+                        <div class="d-grid gap-2 d-md-flex justify-content-md-end">
+                            <button class="btn btn-primary btn1 me-md-4" type="button">Registre-se</button>
+                            <button class="btn btn-primary btn1 " type="button"><a href="./login.html">Entrar</a></button>
+                        </div>
+                </nav>
             </div>
+        </header>
 
-            <div class="form-group">
-                <label for="email" >Email</label>
-                <input type="email" onblur="validarEmail()" onfocus="redefinirMsg()" id="email"/>
-                <span id="error-email"></span>
-            </div>
+        <!--Form inicio-->
+        <section class="h-100 ">
+            <div class="container " onsubmit="senhaOK()">
+                <div class="row d-flex justify-content-center align-items-center h-75">
+                    <div class="col">
+                        <div class=" my-4">
+                            <div class="row g-0">
+                                <div class="col-xl-5 d-none d-xl-block">
+                                    <img src="./assets/img/Asset selection-bro.svg" alt="Sample photo" class="img-fluid align-items-center text-center mt-5" />
+                                </div>
+                                <div class="col-xl-7">
+                                    <div class="card-body p-md-4">
+                                        <h3 class="mb-5 title">Faça o seu cadastro</h3>
 
-            <div class="inputbox">
-                <label for="rg">RG</label>
-                <input type="text" id="rg"  required>
-            </div>
-            <div class="inputbox">
-                <label for="Senha">Senha</label>
-                <input type="password" name="senha" required>
-            </div>
-            <div class="inputbox">
-                <label for="confirmeASenha">Confirme a Senha</label>
-                <input type="password" name="confirma" required>
-            </div>
-        </div>
-        <div class="row">
-            <div class="inputbox">
-                <label for="cep">CEP</label>
-                <input type="text" id="cep"  required>
-            </div>
-            <div class="inputbox">
-                <label for="endereco">Endereço</label>
-                <input type="text" id="endereco"  required>
-            </div>
-            <div class="inputbox">
-                <label for="numero">Número</label>
-                <input type="text" id="numero"  required>
-            </div>
-        </div>
-        <div class="row">
-            <div class="inputbox">
-                <label for="bairro">Bairro</label>
-                <input type="text" id="bairro"  required>
-            </div>
-            <div class="inputbox">
-                <label for="cidade">Cidade</label>
-                <input type="text" id="cidade"  required>
+                                        <div class="row">
+                                            <div class="col-md-6 mb-4">
+                                                <div class="form-outline inputbox">
+                                                    <input type="text" class="form-control form-control-lg" id="nome" required />
+                                                    <label class="form-label" for="nome">Nome</label>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-6 mb-4">
+                                                <div class="form-outline">
+                                                    <input type="text" class="form-control form-control-lg" />
+                                                    <label class="form-label" for="form3Example1n">Sobrenome</label>
+                                                </div>
+                                            </div>
+                                            <div class="row">
+                                                <div class="col-md-6 mb-4">
+                                                    <div class="form-outline inputbox">
+                                                        <input type="text" id="rg" required class="form-control form-control-lg" />
+                                                        <label class="form-label" for="rg">RG</label>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="form-outline mb-4 form-group">
+                                            <input type="email" class="form-control form-control-lg" onblur="validarEmail()" onfocus="redefinirMsg()" id="email" />
+                                            <span id="error-email"></span>
+                                            <label class="form-label" for="email">Email</label>
+                                        </div>
 
+                                        <div class="d-md-flex justify-content-start align-items-center mb-4 py-2">
+
+                                            <h6 class="mb-0 me-4">Gênero: </h6>
+
+                                            <div class="form-check form-check-inline mb-0 me-4">
+                                                <input class="form-check-input" type="radio" name="inlineRadioOptions" id="cisgenero" value="option1" />
+                                                <label class="form-check-label" for="cisgenero">Cisgênero</label>
+                                            </div>
+
+                                            <div class="form-check form-check-inline mb-0 me-4">
+                                                <input class="form-check-input" type="radio" name="inlineRadioOptions" id="transgenero" value="option2" />
+                                                <label class="form-check-label" for="transgenero">Transgênero</label>
+                                            </div>
+
+                                            <div class="form-check form-check-inline mb-0">
+                                                <input class="form-check-input" type="radio" name="inlineRadioOptions" id="naoBinario" value="option3" />
+                                                <label class="form-check-label" for="naoBinario">Não binário</label>
+                                            </div>
+
+                                        </div>
+                                        <div class="form-outline mb-4 inputbox">
+                                            <input type="text" class="form-control form-control-lg" id="endereco" required />
+                                            <label class="form-label" for="endereco">Endereço</label>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-md-6 mb-4">
+                                                <div class="form-outline inputbox">
+                                                    <input type="text" class="form-control form-control-lg" id="cep" required />
+                                                    <label class="form-label" for="cep">Cep</label>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-md-6 mb-4">
+                                                <div class="form-outline inputbox">
+                                                    <input type="text" class="form-control form-control-lg" id="numero" required />
+                                                    <label class="form-label" for="numero">Número</label>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-6 mb-4">
+                                                <div class="form-outline inputbox">
+                                                    <input type="text" class="form-control form-control-lg" id="bairro" required />
+                                                    <label class="form-label" for="bairro">Bairro</label>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="row">
+                                            <div class="col-md-6 mb-4">
+                                                <div class="form-outline inputbox">
+                                                    <input type="text" class="form-control form-control-lg" id="cidade" required />
+                                                    <label class="form-label" for="cidade">Cidade</label>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-6 mb-4">
+                                                <div class="form-outline inputbox">
+                                                    <input type="text" class="form-control form-control-lg" id="estado" required />
+                                                    <label class="form-label" for="estado">Estado</label>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="form-outline mb-4 inputbox">
+                                            <input type="password" class="form-control form-control-lg" name="senha" required />
+                                            <label class="form-label" for="Senha">Senha</label>
+                                        </div>
+                                        <div class="form-outline mb-4 inputbox">
+                                            <input type="password" class="form-control form-control-lg" name="confirma" required />
+                                            <label class="form-label" for="confirmeASenha">Repita a sua senha</label>
+                                        </div>
+                                        <div class="form-check d-flex mb-5">
+                                            <input class="form-check-input me-2" type="checkbox" value="" />
+                                            <label class="form-check-label" for="">
+                                                Concordo com todas as declarações nos <a href="#!" class="text-body"><u>Termos de serviço</u></a>
+                                            </label>
+                                        </div>
+
+                                        <div class="d-flex justify-content-center">
+                                            <button type="submit" value="Cadastrar" class="btn btn-success btn-block btn-lg  button">Cadastrar</button>
+                                        </div>
+
+                                        <p class="text-center mt-5 mb-0">Já tem uma conta? <a href="#!" class="fw-bold text-body"><u>Login aqui</u></a></p>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
-            <div class="inputbox">
-                <label for="estado">Estado</label>
-                <input type="text" id="estado"  required>
+        </section>
+
+
+        <!--
+        <form class="container" onsubmit="senhaOK()">
+            <h1 class="title">Cadastro</h1>
+            <div class="row">
+                <div class="inputbox">
+                    <label for="nome">Nome</label>
+                    <input type="text" id="nome" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" onblur="validarEmail()" onfocus="redefinirMsg()" id="email" />
+                    <span id="error-email"></span>
+                </div>
+
+                <div class="inputbox">
+                    <label for="rg">RG</label>
+                    <input type="text" id="rg" required>
+                </div>
+                <div class="inputbox">
+                    <label for="Senha">Senha</label>
+                    <input type="password" name="senha" required>
+                </div>
+                <div class="inputbox">
+                    <label for="confirmeASenha">Confirme a Senha</label>
+                    <input type="password" name="confirma" required>
+                </div>
             </div>
+            <div class="row">
+                <div class="inputbox">
+                    <label for="cep">CEP</label>
+                    <input type="text" id="cep" required>
+                </div>
+                <div class="inputbox">
+                    <label for="endereco">Endereço</label>
+                    <input type="text" id="endereco" required>
+                </div>
+                <div class="inputbox">
+                    <label for="numero">Número</label>
+                    <input type="text" id="numero" required>
+                </div>
+            </div>
+            <div class="row">
+                <div class="inputbox">
+                    <label for="bairro">Bairro</label>
+                    <input type="text" id="bairro" required>
+                </div>
+                <div class="inputbox">
+                    <label for="cidade">Cidade</label>
+                    <input type="text" id="cidade" required>
+
+                </div>
+                <div class="inputbox">
+                    <label for="estado">Estado</label>
+                    <input type="text" id="estado" required>
+                </div>
+            </div>
+            <div class="row">
+                <input type="submit" value="Cadastrar" />
+            </div>
+        </form>
+-->
+
+        <footer class="footer-20192">
+            <div class="site-section">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm">
+                            <div class="list-unstyled links row ">
+                                <div class="col-4">
+                                    <a href="#">Termos</a>
+                                </div>
+                                <div class="col-4">
+                                    <a href="#">Politica</a>
+                                </div>
+                                <div class="col-4">
+                                    <a href="#">Sobre</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm text-center align-self-center">
+                            <img src="./assets/img/Group 10138.svg" alt="" srcset="">
+                        </div>
+
+                        <div class="col-sm">
+                            <div class="list-unstyled links row ">
+                                <div class="col-4">
+                                    <a href="#">contato</a>
+                                </div>
+                                <div class="col-7">
+                                    <p>Siga-nos em nossas redes sociais</p>
+                                    <a href="#"> <i class="fa-brands fa-linkedin fa-2x mr-2"></i></a>
+                                    <a href="#"><i class="fa-brands fa-facebook-square fa-2x mr-2"></i></a>
+                                    <a href="#"><i class="fa-brands fa-instagram-square fa-2x mr-0"></i></a>
+                                </div>
+                                <div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <p class="text-center align-self-center mt-5 mb-0">Certifique-se de dar uma olhada nos nossos Termos de Uso e Política de Privacidade</p>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <div class="text-center p-3 ">
+            Criado por <a href="https://www.linkedin.com/in/carme-fernandes-30997928/">Carme Fernandes </a> e Gustavo Noleto
         </div>
-        <div class="row">
-            <input type="submit" value="Cadastrar"/>
-        </div>
-    </form>
+    </div>
 </body>
+
 </html>
