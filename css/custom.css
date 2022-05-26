@@ -5,7 +5,6 @@
 .header {
   width: 100%;
   background-color: transparent;
-  transition: background ease-out 0.2s;
 }
 
 .container-background {
@@ -20,13 +19,7 @@
   );
 }
 
-#wave {
-  position: absolute;
-  display: block;
-  bottom: 0;
 
-  height: auto;
-}
 
 .header,
 .navbar-collapse {
@@ -244,5 +237,10 @@ a:hover {
 }
 
 
-/*cadastro*/
+/*senha*/
+
+.section-senha{
+  margin-bottom: -5%;
+  margin-top: -5%;
+}
 
